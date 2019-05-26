@@ -1,0 +1,129 @@
+/* Color and fonts */
+body{
+	background-color: rgb(245,245,245);
+	color: #f6a7ba;
+	font-family: 'Noto Serif', serif;
+	font-size: 17px;
+	font-weight: 300;
+	text-align: justify;
+}
+h1, h2, h3, h4, h5 {
+font-family: 'Lato', sans-serif;
+}
+h1{
+	color: #179882;
+    font-weight: 800;
+    line-height: 1.8;
+    letter-spacing: 5px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+h2, h3, h4, h5 {
+color: #f5587b;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 5px;
+    font-size: 24px;
+}
+
+a{
+	font-family: 'Noto Serif', serif;
+	text-decoration: none;
+	color: #f6a7ba;
+	font-weight: 600px;
+	font-size: 16px;
+	transition: color 0.3s ease;
+}
+ 
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+	background-color: white;
+	margin: 15px 0px;
+	padding: 30px;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.text-center {
+	text-align: center;
+}
+
+.img-circle {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.img-shadowed {
+    box-shadow: 5px 5px 8px rgb(160,160,160);
+}
+
+.text-bold{
+	font-weight: bold;
+}
+
+.btn-green {
+	background-color: #179882;
+	color: white;
+	padding: 10px 30px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.btn-green:hover {
+	color: white;
+	font-weight: 500;
+	text-shadow: 2px 2px 2px rgb(100,100,100);
+}
+.btn-shadowed:hover {
+	box-shadow: 2px 5px 8px rgb(160,160,160);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 0px 20px;
+}
+
+.list-inline li a{
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+.list-inline li a:hover {
+	color: #179882;
+}
+
+
+/* Design adjustments using id */
+#intro p.text-bold {
+	margin-bottom: 30px;
+}
+
